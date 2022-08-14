@@ -1,0 +1,176 @@
+:root {
+    --praimery-text-color:#757575;
+    --secondary-text-color: #FFFFFF;
+    --titel-text-color: #212121;
+    --accent-color: #2196F3;
+    --praimery-bkg-color: FFFFFF;
+    --secondary-bkg-color: #2F303A;
+}
+body {
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
+    color: var(--praimery-text-color);
+    background-color: var(--praimery-bkg-color);
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/*Шапка*/
+.header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.logo span {
+    color: #000000;
+}
+.logo:hover,
+.logo:focus {
+    text-decoration: underline var(--accent-color);
+}
+
+.nav-list .link {
+    color: var(--titel-text-color);
+}
+.header-list .link {
+    color: var(--praimery-text-color);
+}
+
+/*Герой*/
+
+.hero {
+    background-color: var(--secondary-bkg-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+.hero-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--titel-text-color);
+}
+/*Переваги компанії*/
+
+.hidden {
+    color: transparent;
+}
+
+.benefits-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--titel-text-color);
+}
+.benefit {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/*Чим займається компанія*/
+
+.title {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--titel-text-color);
+}
+/*Команда*/
+
+.team {
+    background-color: #F5F4FA;
+}
+.team-employee {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:  var(--titel-text-color);
+}
+
+
+/*Футер*/
+
+.footer {
+    background-color: var(--secondary-bkg-color);
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+}
+.address-list .link {
+    color: rgba(255, 255, 255, 0.6) ;
+}
+.link[rel="noopener noreferrer"] {
+    color: var(--secondary-text-color);
+}
+.footer span {
+    color: var(--secondary-text-color);
+}
+.link:hover,
+.link:focus,
+.link.highlighted {
+    color: var(--accent-color);
+}
+/*Проєкти*/
+.projects {
+   
+}
+.category-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    cursor: pointer;
+    color:var(--titel-text-color);
+    background: #F5F4FA;
+}
+.category-button:hover,
+.category-button:focus {
+    background: var(--accent-color);
+    color: var(--secondary-text-color);
+}
+.project {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--titel-text-color);
+}
+.projects-category {
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+}
+
