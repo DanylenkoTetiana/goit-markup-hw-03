@@ -323,16 +323,12 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .projects-item {
-  margin: 0 30px 30px 0;
+  flex-basis: calc((100% - 60px) / 3);
 }
-.projects-item:nth-child(3n) {
-  margin-right: 0;
-}
-.projects-item:nth-child(n + 7) {
-  margin-bottom: 0;
-}
+
 .signature-card {
   max-width: 370px;
   padding: 20px 24px;
